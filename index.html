@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        button {
-            width: 100px;
-            height: 30px;
-
-        }
-    </style>
 </head>
 <body>
-    <h1>Input Value</h1>
+<!--    <h1>Input Value</h1>-->
+<!--    <label>-->
+<!--        Name: <input id="input_id">-->
+<!--    </label>-->
+<!--    <button onclick="log('input_id')">Submit</button>-->
+    <h1>Calc</h1>
     <label>
-        Name: <input id="input_id">
+        <input id="number1" type="number">
+        <input id="number2" type="number">
     </label>
-    <button onclick="log('input_id')">Submit</button>
-</body>
+<!--<button id="calc">Calculate</button>-->
+    <button id="calc" onclick="calc('output', 'number1', 'number2')">Calculate</button>
+    <h2 id="output">Output: </h2>
 <script src="main.js"></script>
+</body>
 </html>
